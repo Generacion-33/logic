@@ -1,0 +1,19 @@
+{
+  "name": "ejercicios-de-logica-3-18",
+  "version": "1.0.0",
+  "description": "fase de prueba en Academlo, ejercicos 1, 2 y 3 de un total de 18 ejercicios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo '🚀 Corriendo test ejercicio 1... Espera un momento.' && node ./tests/test1.js && node ./tests/test2.js && node ./tests/test3.js",
+    "test1": "echo '🚀 Corriendo test ejercicio 1... Espera un momento.' && node ./tests/test1.js",
+    "test2": "echo '🚀 Corriendo test ejercicio 2... Espera un momento.' && node ./tests/test2.js",
+    "test3": "echo '🚀 Corriendo test ejercicio 3... Espera un momento.' && node ./tests/test3.js"
+  },
+  "keywords": [],
+  "author": "Gabriel Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "1.5.1",
+    "dotenv": "16.3.1"
+  }
+}
