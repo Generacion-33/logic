@@ -7,7 +7,7 @@ axios.post(
   { getEmail: getEmail.toString() })
   .then(response => {
     const { message } = response.data;
-    console.log(message);
+    console.info(message);
   })
   .catch(error => {
     console.error('Hubo un error al comunicarse con la API', error);
