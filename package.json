@@ -4,10 +4,13 @@
   "description": "fase de prueba en Academlo, ejercicos 1, 2 y 3 de un total de 18 ejercicios",
   "main": "index.js",
   "scripts": {
-    "test": "echo '🚀 Corriendo todos los tests... Espera un momento.' && node ./tests/test1.js && node ./tests/test2.js && node ./tests/test3.js",
-    "test1": "echo '🚀 Corriendo test ejercicio 1... Espera un momento.' && node ./tests/test1.js",
-    "test2": "echo '🚀 Corriendo test ejercicio 2... Espera un momento.' && node ./tests/test2.js",
-    "test3": "echo '🚀 Corriendo test ejercicio 3... Espera un momento.' && node ./tests/test3.js"
+    "test": "npm run test:all",
+    "test:all": "echo '🚀 Ejecutando todos los tests...' && npm run test:e1 && npm run test:e2 && npm run test:e3 && npm run test:e4 && npm run test:e5",
+    "test:e1": "echo '🚀 Ejecutando tests del ejercicio 1...' && node ./tests/test1.js",
+    "test:e2": "echo '🚀 Ejecutando tests del ejercicio 2...' && node ./tests/test2.js",
+    "test:e3": "echo '🚀 Ejecutando tests del ejercicio 3...' && node ./tests/test3.js",
+    "test:e4": "echo '🚀 Ejecutando tests del ejercicio 4...' && node ./tests/test4.js",
+    "test:e5": "echo '🚀 Ejecutando tests del ejercicio 5...' && node ./tests/test5.js"
   },
   "keywords": [],
   "author": "Gabriel Martinez",
